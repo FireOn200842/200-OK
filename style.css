@@ -1,0 +1,49 @@
+header {
+  font-family: Courier New, monospace;
+  color: #0c0641;
+  margin-top: none;
+  background-color: #ccf3ff;
+  height: 100px;
+  text-align: center;
+  position: relative; 
+  padding: 60px;
+  font-size: 30px 
+}
+#navbar {
+  background-color: #ccf3ff;
+}
+#navbar ul {
+  list-style: none;
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  text-decoration: none;
+  color: #0c0641;
+  padding-right: 15px;
+  font-size: 26px
+}
+mark {
+  background-color: #d0fffd;
+}
+h4{
+  font-family: DejaVu Sans Mono, monospace;
+}
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color:white;
+
+}
+.texto{
+  background-color: rgba(219, 219, 219, 0.801);
+}
+h2{
+  background-color: rgba(219, 219, 219, 0.801);
+}
+.margem{
+  margin-left: 100px;
+  margin-right: 100px;
+}

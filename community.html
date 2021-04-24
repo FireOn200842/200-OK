@@ -1,0 +1,61 @@
+<html>
+<head> 
+  <style> 
+    h1, p, form {
+      color: #0c0641;
+      font-family: Courier New, monospace;
+      background-color: #ccf3ff;
+    }
+    h1 {
+      text-align: center;
+    }
+    #botao {
+      background-color: #0c0641;
+      color: white;
+    }
+    #navbar {
+  background-color: #ccf3ff;
+}
+#navbar ul {
+  list-style: none;
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  text-decoration: none;
+  color: #0c0641;
+  padding-right: 15px;
+  font-size: 26px
+}
+
+  </style>
+</head>
+<body>
+	<h1>Comunidade</h1>
+	<nav id="navbar">
+      <div>
+        <ul>
+          <li><a href="https://Site200Ok.manuelfreitas.repl.co">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contacts.html" target="">Contacts</a></li>
+          <li><a href="community.html">Community</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p><b>Coloque o nome e o seu comentário nos campos:</b></p>
+
+	<form id="frm1" action="/action_page.php">
+		<b>Nome: </b><input type="text" name="fname"><br>
+  <b>Comentário: </b><input type="text" name="lname"><br><br>
+  <input id="botao" type="button" onclick="myFunction()" value="Submeter">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+
+</body>
+</html>
